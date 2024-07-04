@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll(".card__item-button"),t=document.querySelectorAll(".card__item-text");e.forEach((l,n)=>{l.addEventListener("click",function(){"none"===t[n].style.display?(t.forEach(e=>{e.style.display="none"}),e.forEach(e=>e.classList.remove("gray")),t[n].style.display="block",l.classList.add("gray")):(t[n].style.display="none",l.classList.remove("gray"))})})});
+//# sourceMappingURL=index.b984dfec.js.map
